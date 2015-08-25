@@ -14,26 +14,22 @@
  * limitations under the License.
  */
 
-define([], function () {
+/**
+ *
+ * @since: 15. 8. 24
+ * @author: Koong Kyungmi (kyungmi.k@samsung.com)
+ */
+
+define([
+    'external/lodash/lodash.min'
+], function (
+    _
+) {
     'use strict';
+
     return {
-        getDefault: function () {
-            return {
-                'workspace:filter:.*': false,
-                'workspace:filter:.w.p': true
-            };
-        },
-        view: function (fieldCreator) {
-            fieldCreator.addField('workspace:filter:.*', 'checkbox', {
-                title: 'Filter',
-                name: 'Filter .* resources',
-                'default': false
-            });
-            fieldCreator.addField('workspace:filter:.w.p', 'checkbox', {
-                name: 'Filter .project and .workspace directories',
-                'default': true
-            });
+        openDialog: function () {
+
         }
     };
 });
-
