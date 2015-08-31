@@ -1,5 +1,6 @@
 {
     "plugins" : [
+
     	"plugins/webida.editor.example.multi-viewer",
         "plugins/webida.editor.text-editor",
         "plugins/webida.editor.code-editor",
@@ -7,6 +8,7 @@
         "plugins/webida.viewer.image-viewer",
         "plugins/deploy",
         "plugins/help",
+        "plugins/webida.preference",
         "plugins/preference",
         "plugins/project-configurator",
         "plugins/webida.ide.project-management.run",
